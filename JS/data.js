@@ -1,4 +1,5 @@
-export  function getRandomJoke(){
+
+export function getRandomJoke(){
 
     return fetch("https://api.chucknorris.io/jokes/random")
     .then((response) => response.json())

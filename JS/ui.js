@@ -1,7 +1,7 @@
-const randomJoke = document.getElementById("wrapper");
+const randomJoke = document.getElementById("random-joke");
 
 export function renderJoke(joke) {
 
     const jokeHTML = `<p>${joke}</p>`;
-    randomJoke.insertAdjacentHTML("afterend", jokeHTML);
+    randomJoke.innerHTML = jokeHTML;
 }
