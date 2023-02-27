@@ -17,13 +17,20 @@
 	--angle: 90deg;
 	--c1: rgb(95, 213, 240);
 	--c2: rgba(6, 6, 6, 0.1);
+    overflow: scroll;
+}
+
+h1 {
+
+    color: rgb(95, 213, 240);
+    font-size: 4em;
 }
 
 
 
 .card {
 
-    width: 55rem;
+    width: 65rem;
     margin: 50px auto;
     border: 0.5rem solid;
     border-image: 
@@ -46,16 +53,14 @@
     border: 3px solid rgb(95, 213, 240);
 }
 
+#random-joke {
+
+    box-shadow: 5px 10px 20px 5px rgb(95, 213, 240) inset;
+}
+
 @keyframes borderRotate {
 	100% {
 		--angle: 420deg;
 	}
 }
 
-
-/*
-.card:hover {
-
-    border: 3px solid teal;
-}
-*/
